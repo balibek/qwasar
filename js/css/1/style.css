@@ -1,0 +1,43 @@
+@media screen and (min-width: 250px) {
+   .flexcont {
+        display:flex;
+    }
+}
+
+
+@media screen and (max-width: 720px) {
+    .flexcont {
+        display:flex;
+        flex-direction: column;
+    }
+} 
+
+header, aside, section, footer {
+    display: block;
+    margin:0px;
+    padding: 20px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.header {
+    background-color:#00B7EB;
+}
+
+.hero {
+    background-color:#FF0000;
+}
+
+.content {
+    background-color:#00FF00;
+    flex-grow:1;
+}
+
+.sidebar {
+    background-color:#800080;
+    flex-grow:1;
+}
+
+.footer {
+    background-color:#444444;
+}
